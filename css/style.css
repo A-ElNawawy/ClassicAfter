@@ -1,0 +1,122 @@
+/*Start Main Rules*/
+p{color:#888;}
+/*End Main Rules*/
+
+/* Start Framework*/
+.my-button{
+      border:3px solid ;
+      background: transparent;
+      padding:15px;
+      font-weight:bold;
+      text-transform: uppercase;
+   }
+.u-line{
+    text-decoration: underline;
+}
+hr{
+    margin:20px 0 ;
+    background-color:#888;
+    height:3px;
+    border:0;
+}
+
+/*Start my-box*/
+.my-box .icon i{
+    color:#19BC9D;
+    font-size: 60px;
+}
+/*End my-box*/
+
+/* End Framework*/
+
+/* Start Header*/
+.header{
+    color:#fff;
+    background-color:#EEE;
+    background-image:url('../images/2.jpg');
+    background-size: cover;
+}
+.header .navbar h2{text-transform:uppercase;}
+.header .navbar ul li{
+    display: inline-block;
+    text-transform:uppercase
+    }
+.header .navbar ul li:active{color:#19BC9D;}
+.header .navbar ul li:hover{color:#19BC9D;text-decoration: underline;cursor:pointer}
+.header .slider h1{font-size: 70px;}
+.header .slider h1 span{color:#19BC9D}
+.header .slider p{color:#fff}
+.header .slider button{border-color:#fff;color: #fff}
+.header .slider button:hover{color:#19BC9D;text-decoration: underline;cursor:pointer}
+/* End Header*/
+
+/*Start Our-serv*/
+.our-serv{background-color:#F3F3F3;}
+.our-serv .my-box .icon i[class="fa fa-mobile fa-2x"]{
+    font-size: 100px;
+}
+.our-serv .my-box .icon i[class="fa fa-lightbulb-o fa-2x"]{
+    font-size: 95px;
+}
+/*End Our-serv*/
+
+/*Start Our-team*/
+.our-team{
+    background-color:#F3F3F3
+}
+.our-team .pic img[src="images/5.jpg"]:hover{
+}
+.our-team .pic img[src="images/6.jpg"]:hover{
+}
+.our-team .pic img[src="images/7.jpg"]:hover{
+}
+.our-team .pic img[src="images/8.jpg"]:hover{
+}
+/*End Our-team*/
+
+/*Start testmonials*/
+.testmonials{
+    background-color:#EEE;
+    background-image:url('../images/10.jpg');
+}
+.testmonials .container button{
+    color:#19BC9D;
+    border: hidden;
+    background: transparent;
+}
+/*End testmonials*/
+
+/*Start projects*/
+.projects > div button{
+color:#888;
+border-color:#888;
+}
+.projects > div button:hover{
+   background-color:#19BC9D;
+   color:#fff;
+   cursor:pointer;
+}
+/*End projects*/
+
+/*Start footer*/
+.footer{
+   background-color:black;
+}
+.footer h4{
+   color:#fff;
+}
+.footer .about .icon i,
+.footer .copyright i{
+   color:#888;
+}
+.footer .tags button{
+color:#888;
+border-color:#888;
+}
+.footer .recent .post .txt h5{
+   color:#fff;
+}
+.footer .copyright p{
+text-transform: capitalize;
+}
+/*End footer*/
