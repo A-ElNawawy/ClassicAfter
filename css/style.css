@@ -117,6 +117,27 @@ border-color:#888;
    color:#fff;
 }
 .footer .copyright p{
-text-transform: capitalize;
+    text-transform: capitalize;
+}
+.footer .copyright a{
+    text-decoration: none;
+    margin: 0;
+    color: inherit;
+    transition: all .3s ease-in-out;
+    padding: 20px;
+    font-size: 30px;
+}
+.footer .copyright a:link {
+    text-decoration: none;
+}
+.footer .copyright a:visited {
+    text-decoration: none;
+}
+.footer .copyright a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+.footer .copyright a:active {
+    text-decoration: none;
 }
 /*End footer*/
